@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <script src="https://kit.fontawesome.com/7aba5113e1.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .templates {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .template {
+            padding: 50px;
+        }
+
+        .preview-anchor img {
+            max-height: 500px;
+        }
+
+        .preview-anchor img:hover {
+            scale: 1.05;
+        }
+
+        .preview-anchor {
+            text-decoration: none;
+            color: black;
+        }
+
+        .template-title {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .download-anchor {
+            text-decoration: none;
+            color: blue;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .download-anchor:hover {
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="templates">
+            <div class="template">
+                <a class="preview-anchor" target="_blank" href="./template-1.html">
+                    <img src="./images/template-preview/template-1.jpg" alt="Template preview">
+                    <h3 class="template-title">Template 1</h3>
+                </a>
+                <a class="download-anchor" href="./template-1.html" download><i class="fa-solid fa-download"></i>
+                    Download</a>
+            </div>
+            <div class="template">
+                <a class="preview-anchor" target="_blank" href="./template-2.html">
+                    <img src="./images/template-preview/template-2.jpg" alt="Template preview">
+                    <h3 class="template-title">Template 2</h3>
+                </a>
+                <a class="download-anchor" href="./template-3.html" download><i class="fa-solid fa-download"></i>
+                    Download</a>
+            </div>
+            <div class="template">
+                <a class="preview-anchor" target="_blank" href="./template-3.html">
+                    <img src="./images/template-preview/template-3.jpg" alt="Template preview">
+                    <h3 class="template-title">Template 3</h3>
+                </a>
+                <a class="download-anchor" href="./template-3.html" download><i class="fa-solid fa-download"></i>
+                    Download</a>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
