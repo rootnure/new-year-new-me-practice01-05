@@ -8,3 +8,7 @@
     color: #FFF;
     background-color: #F15B22;
 }
+
+.mindset {
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+}
