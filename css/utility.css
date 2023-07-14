@@ -16,7 +16,7 @@ body {
 
 .section-title {
     color: #151414;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 800;
 }
 
@@ -82,4 +82,31 @@ body {
 
 .failure-points small {
     color: #16D887;
+}
+
+/* my plans section styles here */
+.plans-container {
+    width: 80%;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.plans-container .section-title {
+    padding: 55px 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 600;
 }
