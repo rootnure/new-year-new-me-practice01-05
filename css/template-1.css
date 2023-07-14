@@ -12,3 +12,7 @@
 .mindset {
     background-image: url('../images/watch.png'), url('../images/gradient1.png');
 }
+
+.subscribe-info input[type="submit"] {
+    color: #F15B22;
+}
