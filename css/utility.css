@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+/* common styles here */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap');
 
 * {
     margin: 0;
@@ -9,15 +10,27 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: #444343;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* banner section styles here */
 .banner {
     height: 950px;
     display: flex;
     align-items: center;
-}
-
-.banner-empty,
-.banner-content {
-    width: 50%;
 }
 
 .banner-content {
@@ -50,4 +63,23 @@ body {
     border: 0;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* failure section styles here */
+.failures {
+    width: 80%;
+    margin: 140px auto;
+    display: flex;
+    gap: 100px;
+    max-height: 950px;
+    align-items: center;
+}
+
+.failure-points {
+    list-style: none;
+    color: #444343;
+}
+
+.failure-points small {
+    color: #16D887;
 }
