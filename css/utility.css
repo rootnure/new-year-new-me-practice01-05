@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    height: 950px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-empty,
+.banner-content {
+    width: 50%;
+}
+
+.banner-content {
+    text-align: right;
+    margin: 0 auto;
+}
+
+.banner-info {
+    padding-right: 250px;
+    padding-left: 75px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.banner-btn {
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
 }
