@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('../images/banner/banner1.png');
+    background-image: url('../images/banner/banner2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@
 }
 
 .mindset {
-    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
 }
 
 .call-now-btn {

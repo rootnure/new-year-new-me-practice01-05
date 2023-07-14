@@ -1,0 +1,31 @@
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-title {
+    color: #FFF;
+}
+
+.banner-description {
+    color: #FFF;
+}
+
+.banner-btn {
+    color: #005FAC;
+    background-color: #FFF;
+}
+
+.mindset {
+    background-image: url('../images/watch.png'), url('../images/gradient3.png');
+}
+
+.call-now-btn {
+    color: #005FAC;
+}
+
+.subscribe-info input[type="submit"] {
+    color: #FFF;
+    background-color: #005FAC;
+}
